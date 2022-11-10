@@ -1,0 +1,141 @@
+@media screen and (min-width:48em){
+
+/*   header   */    
+
+header{
+    display: grid;
+    grid-template-areas: 'logo nav' 'content img';
+    align-items: center;
+    gap: 3.125rem;
+    padding: 1.875rem 3.125rem ;
+}
+
+.header-img{
+    max-width: 31.25rem;
+}
+
+.header-content{
+    max-width: 34.375rem;
+    text-align: left;
+}
+
+.header-content p{
+    padding: 1.25rem 0rem;
+}
+
+header form{
+    display: flex;
+    gap: 0.625rem;
+}
+
+header .email{
+    width: 65%;
+    padding: 0.625rem;
+    margin: 0rem;
+}
+
+header .button{
+    width: 35%;
+}
+
+/* main */
+
+main{
+    display: grid;
+    grid-template-areas: 'content img' 'card img' 'form form';
+
+}
+
+section{
+    padding: 0.625rem 3.125rem;
+}
+
+.background{
+    background-image: url(../images/bg-curve-desktop.svg) 
+}
+
+section.img{
+    grid-area: img;
+    max-width: 50rem;
+    align-self: center;
+}
+
+section.content{
+    grid-area: content;
+    text-align: left;
+    padding-top: 3.125rem;
+}
+
+section.content h2{
+    text-align: left;
+    font-size: 2rem;
+    padding: 0.625rem 0.3125rem;
+}
+
+section.content p{
+    max-width: 56.25rem;
+    padding-top: 0.625rem;
+}
+
+section.card{
+    grid-area: card;
+    max-width: 25rem;
+}
+
+.section-form{
+    grid-area: form;
+    display: grid;
+    grid-template-areas: 'h2 form2' 'p form2';
+    text-align: left;
+    padding: 4.375rem 3.125rem;
+    align-items: center;
+}
+
+.section-form h2{
+    grid-area: h2;
+}
+
+.section-form p{
+    grid-area: p;
+    font-size: .9rem;
+    max-width: 31.25rem;
+}
+
+.section-form form{
+    grid-area: form2;
+    max-width: 50rem;
+}
+
+.section-form .button{
+    width: 50%;
+}
+
+/* footer */
+
+footer{
+    display: grid;
+    grid-template-areas: 'add nav social' 'add nav att';
+    align-items: center;
+    padding: 5rem 3.125rem;
+}
+
+address{
+    grid-area: add;
+}
+
+.footer-nav{
+    grid-area: nav;
+    columns: 2;
+}
+
+.social{
+    grid-area: social;
+    align-self: flex-end;
+}
+
+.attribution{
+    grid-area: att;
+    align-self: flex-start;
+}
+
+}

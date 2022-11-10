@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/media-query.css">
+
+  <script src="https://kit.fontawesome.com/40669e63fa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div> 
+      <img src="images/logo.svg" alt="Fylo's Logo" class="logo"> 
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+    <div class="header-content">
+      <h1>All your files in one secure location, accessible anywhere.</h1>
+      <p>
+        Fylo stores your most important files in one secure location.
+        Access them wherever you need, share and collaborate with friends,
+        family, and co-workers.
+      </p>
+      <form>
+        <label for="email"></label>
+        <input type="email" name="_email" id="email-header" class="email" placeholder="Enter your email..." required autocomplete="email">
+        <input type="button" value="Get Started" class="button">
+      </form>
+    </div>
+    <div class="header-img">
+      <img src="images/illustration-1.svg" alt="" aria-hidden="true" class="illustration">
+    </div>
+  </header>
+
+  <main>
+    <section class="background"></section>
+    
+    <section class="img">
+      <img src="images/illustration-2.svg" alt="" aria-hidden="true" class="illustration">
+    </section>
+
+    <section class="content">
+      <h2>Stay productive, wherever you are</h2>
+      <p>
+        Never let location be an issue when accessing your files. Fylo has you
+        covered for all of your file storage needs.
+      </p>
+      <p>
+        Securely share files and folders with friends, family and colleagues for
+        live collaboration. No email attachments required!
+      </p>
+      <div class="section-link">
+        <a href="#">See how Fylo works</a>
+        <img src="images/icon-arrow.svg" alt="" aria-hidden="true" class="arrow">
+      </div>
+    </section>
+
+    <section class="card">
+      <img src="images/icon-quotes.svg" alt="">
+      <figure>
+        <blockquote>
+          Fylo has improved our team productivity by an order of magnitude. Since
+          making the switch our team has become a well-oiled collaboration machine.
+        </blockquote>
+        <figcaption>
+          <img src="images/avatar-testimonial.jpg" alt="Headshot of Kyle Burton">
+          <p class="name">Kyle Burton</p>
+          <p class="cargo">Founder & CEO, Huddle</p>
+        </figcaption>
+      </figure>
+      </section>
+
+      <section class="section-form">
+        <h2>Get early access today</h2>
+        <p>
+          It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+        </p>
+        <form>
+          <label for="email"></label>
+          <input type="email" name="_email" id="email-main" class="email" placeholder="Enter your email..." required autocomplete="email">
+          <input type="button" value="Get Started For Free" id="button-main" class="button">
+        </form>
+      </section>
+    
+  </main>
+
+  <footer>
+    <address>
+      <img src="images/logo-white.png" alt="Fylo's Logo" class="logo">
+      <ul>
+        <li class="tel">Phone: <a href="#">+1-543-123-4567</a></li>
+        <li class="mail"><a href="#">example@fylo.com</a></li>
+      </ul>
+    </address>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <ul>
+        <li><a href="#" aria-label="Follow us on Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="#" aria-label="Follow us on Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#" aria-label="Follow us on Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+      </ul>
+    </div>
+    <div class="attribution">
+      <p>Coded by<a href="https://github.com/isabellatressino" target="_blank"> Isabella Tressino</a></p>
+    </div>
+  </footer>
+</body>
+</html>
