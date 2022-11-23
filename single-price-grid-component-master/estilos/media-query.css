@@ -1,0 +1,35 @@
+
+main{
+    height: 26.25rem;
+    width: 37.5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    'join join'
+    'monthly why'
+}
+
+section#join{
+    grid-area: join;
+}
+
+section#join h1 {
+    font-size: 1.4rem;
+}
+
+section#monthy{
+    grid-area: monthy;
+}
+
+section#monthly a{
+    padding: 0.75rem 5.9375rem;
+}
+
+section#why{
+    grid-area: why;
+}
+
+footer{
+    position: fixed ;
+    bottom: 0;
+}

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;700&display=swap');
+
+:root{
+    --font: 'Karla', sans-serif;
+    --cyan: hsl(179, 62%, 43%); 
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue:  hsl(218, 22%, 67%);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: var(--font);
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    width: 20rem;
+    background-color: white;
+    border-radius: 0.3125rem;
+    overflow: hidden;
+    margin: 0.625rem;
+}
+
+section{
+    padding: 1.875rem;
+}
+
+section#join{
+    background-color: white;
+}
+
+section#join h1{
+    color: var(--cyan);
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+section#join h2{
+    color: var(--bright-yellow);
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+
+}
+
+section#join p{
+    color: var(--grayish-blue);
+    font-size: 0.8125rem;
+    line-height: 1.5625rem;
+}
+
+section#monthly{
+    background-color: var(--cyan);
+    color: white;
+}
+
+section#monthly h2, section#why h2{
+    margin-bottom: 0.9375rem;
+    font-size: 1rem;
+}
+
+section#monthly span{
+    font-size: 1.6875rem;
+    font-weight: 700;
+    margin-right: 0.625rem;
+    vertical-align: middle;
+}
+
+section#monthly p#price{
+    margin: 0px;
+}
+
+section#monthly p{
+    font-weight: 200;
+    font-size:  0.8125rem;
+    margin: 0.3125rem 0rem 2.1875rem 0rem;
+}
+
+section#monthly a{
+    text-decoration: none;
+    background-color: var(--bright-yellow);
+    color: white;
+    padding: 0.75rem 6.5625rem;
+    font-size: 0.8125rem;
+    border-radius: 5px;
+    box-shadow: 0.125rem 0.125rem 0.4375rem rgba(0, 0, 0, 0.336);
+}
+
+section#why{
+    background-color: var(--cyan);
+    opacity: .7;
+    color: white;
+}
+
+section#why li{
+    list-style: none inside ;
+    font-weight: 200;
+    line-height: 1.25rem;
+    font-size: 0.8125rem;
+}
+
+footer{
+    padding: 1.25rem 0rem 0.3125rem 0rem;
+}
+.attribution { 
+    font-size: 0.6875rem; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
