@@ -1,0 +1,204 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root{
+    --font: 'League Spartan', sans-serif;
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink:hsl(333, 80%, 67%) ;
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    font-family: var(--font);
+    background-color: white;
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    background-attachment: fixed;
+    padding: 1.875rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+section.content-container h1{
+    color: var(--very-dark-magenta);
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.625rem 1.875rem;
+}
+
+section.content-container p{
+    color: var(--dark-grayish-magenta);
+    text-align: center;
+}
+
+section.review-container{
+    width: 100%;
+    text-align: center;
+}
+
+div.review{
+    background-color: var(--light-grayish-magenta);
+    padding: 0.625rem;
+    margin: 0.625rem;
+    border-radius: 0.5rem;
+}
+
+div.review img{
+    margin: 0rem 0.1875rem;
+}
+
+div.review p{
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    margin-top: 0.375rem;
+}
+
+figure.social{
+    background-color: var(--very-dark-magenta);
+    padding: 1.25rem;
+    margin: 0.9375rem 0rem;
+    border-radius: 0.3125rem;
+    display: grid;
+    grid-template-areas: 'img user' 'p p';
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+figcaption.user{
+    grid-area: user;
+}
+
+figure.social img{
+    border-radius: 50%;
+    width: 2.5rem;
+    grid-area: img;
+}
+
+p.name{
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--light-grayish-magenta);
+    margin-bottom: 0.3125rem;
+}
+
+p.verified{
+    color: var(--soft-pink);
+}
+
+blockquote.comment{
+    grid-area: p;
+    color: var(--light-grayish-magenta);
+    line-height: 1.4rem;
+}
+
+@media screen and (min-width:37.5rem){
+    body{
+        padding: 1.875rem 4.375rem;
+    }
+}
+
+@media screen and (min-width: 48rem){
+    body{
+        background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    }
+
+    main{
+        display: grid;
+        grid-template-areas: 'content-container review-container' 'social-container social-container';
+        grid-template-columns: 1fr max-content;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+        max-width: 62.5rem;
+    }
+
+    section.content-container{
+        grid-area: content-container;
+        max-width: 28.125rem;
+    }
+
+    section.content-container h1{
+        text-align: left;
+        font-size: 3.3rem;
+        padding-left: 0px;
+        margin-right: 3.125rem;
+    }
+
+    section.content-container p{
+        text-align: left;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        margin-top: 0.625rem;
+    }
+
+    .review-container{
+        grid-area: review-container;
+    }
+
+    div.review{
+        padding: 0.9375rem;
+    }
+
+    .review p{
+        margin-left: 0.3125rem;
+        display: inline;
+    }
+
+    div.r1{
+        margin-right: 6.25rem;
+    }
+
+    div.r2{
+        margin-left: 3.125rem;
+        margin-right: 3.125rem;
+    }
+
+    div.r3{
+        margin-left: 6.25rem;
+    }
+
+    .social-container{
+        grid-area: social-container;
+        display: flex;
+        justify-content: center;
+        gap: 1.875rem;
+    }
+
+    figure.social{
+        padding: 1.875rem;
+    }
+
+    figure.s1{
+        margin-bottom: 3.75rem;
+    }
+
+    figure.s2{
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+    }
+
+    figure.s3{
+        margin-top: 3.75rem;
+    }
+}
