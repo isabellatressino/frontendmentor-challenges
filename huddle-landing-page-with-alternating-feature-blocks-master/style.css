@@ -1,0 +1,342 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --font: 'Open Sans', sans-serif;
+    --pink:  hsl(322, 100%, 66%);
+    --very-pale-cyan:hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font: normal 18px var(--font);
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
+/*   header   */
+
+header{
+    background: var(--very-pale-cyan) url(images/bg-hero-mobile.svg) no-repeat center;
+    background-size: cover;
+    padding: 1.25rem;
+    text-align: center;
+    color: var(--very-dark-cyan);
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+div.up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 8.125rem;
+    height: 1.25rem;
+}
+
+.button-try{
+    text-decoration: none;
+    background-color: white;
+    padding: 0.5rem 2.1875rem;
+    border-radius: 1.25rem;
+    box-shadow: 0.125rem 0.125rem 0.4375rem rgba(0, 0, 0, 0.100);
+    color: black; 
+    font-size: 0.8125rem;
+    font-weight: bold;
+}
+
+.button-try:hover{
+    color: var(--grayish-blue);
+}
+
+.content h1 {
+    font-size: 2rem;
+    padding: 0.9375rem;
+}
+
+.content p{
+    padding: 0.3125rem 0.9375rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.5625rem;
+}
+
+.button-get{
+    color: white;
+    text-decoration: none;
+    background-color: var(--pink);
+    font-size: .9rem;
+    padding: 0.9375rem 3.75rem;
+    border-radius: 1.875rem;
+    box-shadow: 0.125rem 0.125rem 0.4375rem rgba(0, 0, 0, 0.150);
+}
+
+.button-get:hover{
+    opacity: .8;
+}
+
+.mockups{
+    padding: 0rem 1.875rem;
+    max-width: 31.25rem;
+    margin: auto;
+}
+
+/*   main   */
+
+main{
+    padding: 4.375rem 1.25rem 15.625rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    position: relative;
+}
+
+section.card{
+    border-radius: 1.25rem;
+    box-shadow: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.100);
+    padding: 1.875rem;
+    text-align: center;
+}
+
+div.card-img{
+    padding: 3.125rem;
+    max-width: 18.75rem;
+    margin: auto;
+}
+
+div.card-txt h2{
+    font-size: 1.5rem;
+    padding: 0.625rem;
+    color: var(--very-dark-cyan);
+}
+
+div.card-txt p{
+    color: var(--grayish-blue);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 0.625rem;
+}
+
+section.container-get{
+    border-radius: 1.25rem;
+    box-shadow: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.100);
+    padding: 3.125rem;
+    text-align: center;
+    color: var(--very-dark-cyan);
+    width: 90%;
+    max-width: 37.5rem;
+    background-color: white;
+    position: absolute;
+    bottom: -5.3125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+
+section.container-get h3{
+    font-size: 1.1rem;
+    margin-bottom: 1.875rem;
+}
+
+section.container-get a{
+    padding: 0.9375rem 1.875rem;
+}
+
+
+/*   footer   */
+
+footer{
+    background-color: var(--very-dark-cyan);
+    color: var(--very-pale-cyan);
+    padding: 8.125rem 0.625rem 3.125rem 0.625rem;
+}
+
+footer img{
+    width: 9.375rem;
+}
+
+address{
+    padding: 0.625rem 0rem;
+    font-size: .85rem;
+    font-style: normal;
+}
+
+address ul li{
+    padding: 0.625rem;
+}
+
+ul li.add{
+    list-style: circle inside url(images/icon-location.svg);
+}
+
+ul li.tel{
+    list-style: circle inside url(images/icon-phone.svg);
+}
+
+ul li.email{
+    list-style: circle inside url(images/icon-email.svg);
+}
+
+div.links ul li{
+    padding: 0.5rem 0.625rem;
+    list-style: none;
+    font-size: .85rem;
+}
+
+div.links a{
+    text-decoration: none;
+    color: var(--very-pale-cyan);
+}
+
+div.links a:hover{
+    text-decoration: underline;
+}
+
+div.social{
+    text-align: center;
+    padding: 1.25rem;
+}
+
+div.social li{
+    padding: 0.3125rem;
+    display: inline-block;
+}
+
+div.social i {
+    border: 0.0625rem solid var(--very-pale-cyan);
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--very-pale-cyan);
+}
+
+div.social i.fa-facebook-f{
+    padding: 0.5rem 0.7188rem;
+}
+
+div.social i.fa-instagram{
+    padding: 0.5rem 0.5938rem;
+}
+
+div.social i:hover{
+    color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+div.copy{
+    text-align: center;
+    font-size: .7rem;
+}
+
+div.copy a{
+    color: var(--pink);
+    text-decoration: none;
+}
+
+div.copy a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width:62rem){
+    header{
+        background-image: url(images/bg-hero-desktop.svg);
+        display: grid;
+        grid-template-areas: 'up up' 'content mockups';
+        padding: 1.875rem 3.125rem;
+    }
+
+    div.up{
+        grid-area: up
+    }
+
+    div.content{
+        grid-area: content;
+        text-align: left;
+        max-width: 31.25rem;
+        margin-top: 50px;
+    }
+
+    div.content h1{
+        font-size: 2.5rem;
+    }
+
+    div.content a{
+        margin-left: 0.9375rem;
+    }
+
+    img.mockups{
+        grid-area: mockups;
+        max-width: 40.625rem;
+    }
+
+    main{
+        padding: 4.375rem 6.25rem 11.875rem 6.25rem;
+    }
+
+    section.card{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-img{
+        max-width: 25rem;
+    }
+
+    .card-txt{
+        text-align: left;
+        padding: 0.625rem 6.25rem 0.625rem 3.125rem;
+    }
+
+    section.s2{
+        display: flex;
+        flex-direction: row;
+    }
+
+    section.container-get a{
+        padding: 0.9375rem 3.75rem;
+    }
+
+    footer{
+        padding: 8.125rem 6.25rem 3.125rem 6.25rem;
+        display: grid;
+        grid-template-areas: 'img img img' 'add links social' 'a a copy';
+        gap: 1.875rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    footer img {
+        grid-area: img;
+    }
+
+    address{
+        grid-area: add;
+    }
+
+    div.links{
+        grid-area: links;
+        columns: 2;
+    }
+
+    div.social{
+        grid-area: social;
+    }
+
+    div.copy{
+        grid-area: copy;
+        align-self: flex-end;
+    }
+
+}
