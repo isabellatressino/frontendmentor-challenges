@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <main>
+    <section class="signUp-container">
+      <div class="signUp-content">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul>
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+        <div class="form">
+          <label for="email">Email address</label>
+          <input type="email" name="email" id="email" class="email" placeholder="email@company.com" autocomplete="email"></input>
+          <button id="submit">Subscribe to monthly newsletter</button>
+        </div>
+      </div>
+      <div class="signUp-image">
+        <picture>
+          <source media="(max-width: 768px)" srcset="assets/images/illustration-sign-up-mobile.svg">
+          <img src="assets/images/illustration-sign-up-desktop.svg" alt="" aria-hidden="true">
+        </picture>
+      </div>
+    </section> 
+    <section class="message-container">
+      <div class="message-content">
+        <img src="assets/images/icon-success.svg" alt="" aria-hidden="true">
+        <h1>Thanks for subscribing!</h1>
+        <p>
+          A confirmation email has been sent to <strong><span id="spnEmail"></span></strong>.
+          Please open it and click the button inside to confirm your subscription.
+        </p>
+      </div>
+      <button id="demiss">Dismiss message</button>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/isabellatressino">Isabella Tressino</a>.
+  </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

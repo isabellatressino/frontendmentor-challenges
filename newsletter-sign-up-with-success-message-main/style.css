@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+	--font: "Roboto", sans-serif;
+	--dark-slate-grey: hsl(234, 29%, 20%);
+	--charcoal-grey: hsl(235, 18%, 26%);
+	--grey: hsl(231, 7%, 60%);
+	--white: hsl(0, 0%, 100%);
+	--tomato: hsl(4, 100%, 67%);
+	--pink: hsl(348, 100%, 66%);
+	--tomatoTransparent: hsla(4, 100%, 67%, 0.1);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 16px var(--font);
+	color: var(--dark-slate-grey);
+	background-color: var(--charcoal-grey);
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input,
+button {
+	cursor: pointer;
+}
+
+section {
+	background-color: var(--white);
+	display: flex;
+	padding: 1.5625rem;
+	margin: 6.25rem 3.125rem;
+	border-radius: 2.1875rem;
+}
+
+h1 {
+	font-size: 3.125rem;
+}
+
+button {
+	background-color: var(--dark-slate-grey);
+	border: none;
+	color: var(--white);
+	font-size: 1rem;
+	padding: 0.9375rem;
+	border-radius: 0.3125rem;
+	margin-top: 0.625rem;
+	transition: background-color 1s ease;
+}
+
+button:hover {
+	background-color: tomato;
+	background-image: linear-gradient(to right, var(--pink), var(--tomato));
+}
+
+/*    SECTION SIGNUP     */
+
+.signUp-container {
+	max-width: 58.125rem;
+	max-height: 40rem;
+}
+
+.signUp-content {
+	display: flex;
+	flex-direction: column;
+	padding: 1.875rem;
+	justify-content: center;
+	gap: 1.25rem;
+}
+
+.signUp-content ul {
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+.signUp-content li {
+	margin: 0.625rem 0rem;
+}
+
+.signUp-content li::before {
+	content: url(assets/images/icon-list.svg);
+	vertical-align: middle;
+	margin-right: 0.9375rem;
+}
+
+.signUp-content .form {
+	display: flex;
+	flex-direction: column;
+	gap: 0.9375rem;
+	position: relative;
+}
+
+.signUp-content label {
+	font-size: 0.75rem;
+	color: var(--dark-slate-grey);
+	font-weight: 700;
+}
+
+.signUp-content .email {
+	border: 0.0625rem solid var(--grey);
+	color: var(--grey);
+}
+
+.signUp-content #email {
+	padding: 0.9375rem;
+	border-radius: 0.3125rem;
+}
+
+.signUp-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.signUp-image img {
+	width: 100%;
+}
+
+/*     SECTION MESSAGE     */
+
+.message-container {
+	flex-direction: column;
+	padding: 3.75rem;
+	max-width: 31.25rem;
+	gap: 1.5625rem;
+}
+
+.message-content {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5625rem;
+}
+
+.message-container img {
+	width: 4.0625rem;
+}
+
+/*     VALIDATIONS     */
+
+.error-message {
+	color: var(--tomato);
+	font-size: 0.75rem;
+	font-weight: 700;
+	position: absolute;
+	right: 0.625rem;
+}
+
+.error-input {
+	color: var(--tomato);
+	border: 0.0625rem solid var(--tomato);
+	background-color: var(--tomatoTransparent);
+}
+
+/*     FOOTER     */
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: var(--white);
+}
+
+.attribution a {
+	color: var(--tomato);
+}
+
+/*     MEDIA QUERIES     */
+
+@media screen and (max-width: 30rem) {
+	body {
+		background-color: var(--white);
+	}
+
+	main {
+		background-color: var(--white);
+		display: block;
+		height: auto;
+	}
+
+	.signUp-container {
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column-reverse;
+		max-width: 100%;
+		max-height: 100%;
+		border-radius: 0;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	.signUp-image img {
+		width: 100vw;
+	}
+
+	.message-container {
+		padding: 6.25rem 2.5rem 2.5rem 2.5rem;
+		margin: 0;
+		max-width: 100%;
+		height: 100vh;
+		justify-content: space-between;
+	}
+
+	.attribution {
+		color: var(--charcoal-grey);
+	}
+}
+
+@media screen and (min-width: 30.0625rem) and (max-width: 48rem) {
+	body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	main {
+		height: auto;
+		width: auto;
+		max-width: 37.5rem;
+	}
+
+	.signUp-container {
+		padding: 0;
+		display: flex;
+		margin: 1.875rem 0rem;
+		flex-direction: column-reverse;
+		max-width: 100%;
+		max-height: 100%;
+		overflow: hidden;
+	}
+
+	.signUp-container h1 {
+		font-size: 2.5rem;
+	}
+
+	.signUp-image img {
+		width: 100vw;
+		max-width: 37.5rem;
+	}
+}
