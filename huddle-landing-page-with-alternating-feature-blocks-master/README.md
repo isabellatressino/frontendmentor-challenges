@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-Px-FbVhrrW](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-Px-FbVhrrW)
-- Live Site URL: [https://isabellatressino.github.io/huddle-landing-page-with-alternating-feature-blocks-master/](https://isabellatressino.github.io/huddle-landing-page-with-alternating-feature-blocks-master/)
+- [Solution URL](https://www.frontendmentor.io/solutions/huddle-landing-page-with-alternating-feature-blocks-Px-FbVhrrW)
+- [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/huddle-landing-page-with-alternating-feature-blocks-master/)
 
 ## My process
 
