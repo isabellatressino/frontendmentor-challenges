@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-1ECB1vI5pj](https://www.frontendmentor.io/solutions/social-proof-section-1ECB1vI5pj)
-- Live Site URL: [https://isabellatressino.github.io/social-proof-section-master/](https://isabellatressino.github.io/social-proof-section-master/)
+- [Solution URL](https://www.frontendmentor.io/solutions/social-proof-section-1ECB1vI5pj)
+- [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/social-proof-section-master/)
 
 ## My process
 
