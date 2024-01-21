@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-F4k_jCv2H8](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-F4k_jCv2H8)
-- Live Site URL: [https://isabellatressino.github.io/fylo-landing-page-with-two-column-layout-master/](https://isabellatressino.github.io/fylo-landing-page-with-two-column-layout-master/)
+- [Solution URL](https://www.frontendmentor.io/solutions/fylo-landing-page-with-two-column-layout-F4k_jCv2H8)
+- [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/fylo-landing-page-with-two-column-layout-master/)
 
 ## My process
 
