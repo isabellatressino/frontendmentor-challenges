@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Tip calculator app</title>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<img src="images/logo.svg" alt="Splitter's Logo" />
+		</header>
+		<main>
+			<section class="container">
+				<div class="left">
+					<form>
+						<fieldset class="f-bill">
+							<legend>Bill</legend>
+							<input type="number" name="bill" id="bill" placeholder="0" />
+						</fieldset>
+
+						<fieldset class="f-radios">
+							<legend>Select Tip %</legend>
+
+							<input
+								type="radio"
+								name="options"
+								id="option1"
+								class="input-option"
+								value="0.05"
+								checked
+							/>
+							<label for="option1" class="label-option">5%</label>
+
+							<input
+								type="radio"
+								name="options"
+								id="option2"
+								class="input-option"
+								value="0.1"
+							/>
+							<label for="option2" class="label-option">10%</label>
+
+							<input
+								type="radio"
+								name="options"
+								id="option3"
+								class="input-option"
+								value="0.15"
+							/>
+							<label for="option3" class="label-option">15%</label>
+
+							<input
+								type="radio"
+								name="options"
+								id="option4"
+								class="input-option"
+								value="0.25"
+							/>
+							<label for="option4" class="label-option">25%</label>
+
+							<input
+								type="radio"
+								name="options"
+								id="option5"
+								class="input-option"
+								value="0.5"
+							/>
+							<label for="option5" class="label-option">50%</label>
+
+							<input
+								type="number"
+								name="custom"
+								id="custom"
+								class="input-custom"
+								placeholder="Custom"
+							/>
+						</fieldset>
+
+						<fieldset class="f-number">
+							<legend>Number of People</legend>
+							<input
+								type="number"
+								name="numPeople"
+								id="numPeople"
+								placeholder="0"
+							/>
+						</fieldset>
+					</form>
+				</div>
+				<div class="right">
+					<div class="total">
+						<p class="p1">Tip Amount</p>
+						<p class="p2">/ person</p>
+						<span id="tipAmount" class="spn">$0.00</span>
+					</div>
+					<div class="total">
+						<p class="p1">Total</p>
+						<p class="p2">/ person</p>
+						<span id="total" class="spn">$0.00</span>
+					</div>
+					<button type="reset" id="btn-reset" disabled>RESET</button>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="attribution">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by
+				<a href="https://github.com/isabellatressino">Isabella Tressino</a>.
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
