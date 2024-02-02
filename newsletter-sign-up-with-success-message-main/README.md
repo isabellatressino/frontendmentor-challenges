@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/newsletter-sign-up-with-success-message-main-jQXq2OiGzl](https://www.frontendmentor.io/solutions/newsletter-sign-up-with-success-message-main-jQXq2OiGzl)
-- Live Site URL: [https://isabellatressino.github.io/newsletter-sign-up-with-success-message-main/](https://isabellatressino.github.io/newsletter-sign-up-with-success-message-main/)
+- [Solution URL](https://www.frontendmentor.io/solutions/newsletter-sign-up-with-success-message-main-jQXq2OiGzl)
+- [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/newsletter-sign-up-with-success-message-main/)
 
 ## My process
 
