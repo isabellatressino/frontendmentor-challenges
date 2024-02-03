@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion-main-bCuONBVsZq](https://www.frontendmentor.io/solutions/faq-accordion-main-bCuONBVsZq)
-- Live Site URL: [https://isabellatressino.github.io/faq-accordion-main/](https://isabellatressino.github.io/faq-accordion-main/)
+- [Solution URL](https://www.frontendmentor.io/solutions/faq-accordion-main-bCuONBVsZq)
+- [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/faq-accordion-main/)
 
 ## My process
 
