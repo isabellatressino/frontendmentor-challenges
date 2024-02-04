@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/tip-calculator-app-main-X9YDEhDmGM](https://www.frontendmentor.io/solutions/tip-calculator-app-main-X9YDEhDmGM)
-- Live Site URL: [https://isabellatressino.github.io/tip-calculator-app-main/](https://isabellatressino.github.io/tip-calculator-app-main/)
+- [Solution URL](https://www.frontendmentor.io/solutions/tip-calculator-app-main-X9YDEhDmGM)
+- [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/tip-calculator-app-main/)
 
 - Frontend Mentor - [@isabellatressino](https://www.frontendmentor.io/profile/isabellatressino)
