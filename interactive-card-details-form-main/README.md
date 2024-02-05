@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/interactive-card-details-form-main-html-css-js-3MGiYrsBlg](https://www.frontendmentor.io/solutions/interactive-card-details-form-main-html-css-js-3MGiYrsBlg)
-- Live Site URL: [https://isabellatressino.github.io/interactive-card-details-form-main/](https://isabellatressino.github.io/interactive-card-details-form-main/)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-card-details-form-main-html-css-js-3MGiYrsBlg)
+- [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/interactive-card-details-form-main/)
 
 ## My process
 
