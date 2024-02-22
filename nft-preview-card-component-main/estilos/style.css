@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap'); /*'Outfit', sans-serif;*/
+
+:root{
+    --soft-blue:hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --very-dark-blue-body:hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --font: 'Outfit', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--very-dark-blue-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    height: 31.25rem ;
+    width: 18.75rem;
+    background-color: var(--very-dark-blue-card);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+section#imagem{
+    background: var(--soft-blue) url(../images/image-equilibrium.jpg) center center;
+    background-size: cover;
+    height: 15.625rem;
+    border-radius: 10px;
+    margin: 25px;
+    opacity: 1;
+}
+
+section#imagem:hover{
+    background: var(--cyan) url(../images/icon-view.svg) no-repeat center center;
+    background-size: 3.125rem;
+    cursor: pointer;
+}
+
+section#conteudo{
+    padding: 0px 25px;
+    font-family: var(--font);
+}
+
+section#conteudo a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+section#conteudo a:hover{
+    color: var(--cyan);
+}
+
+section#conteudo p{
+    color: var(--soft-blue);
+    font-size: 0.938rem;
+    padding: 10px 0px;
+    font-weight: 300;
+}
+
+section#icons{
+    padding: 10px 25px;
+    font-family: var(--font);
+    font-size: 0.813rem;
+}
+
+span#eth{
+    color: var(--cyan);
+}
+
+span#eth img{
+    vertical-align: bottom;
+    padding-right: 5px;
+}
+
+span#clock{
+    color: var(--soft-blue);
+    margin-left: 80px;
+}
+
+span#clock img{
+    vertical-align: bottom;
+    padding-right: 5px;
+}
+
+hr{
+    border-color: var(--soft-blue);
+    margin-top: 15px;
+}
+
+section#avatar img{
+    width: 2.188rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px 10px 10px 25px;
+    vertical-align: middle;
+}
+
+section#avatar p{
+    display: inline;
+    color: var(--soft-blue);
+    font-family: var(--font);
+    font-size: 0.813rem;
+}
+
+section#avatar a{
+    text-decoration: none;
+    color: white;
+}
+
+section#avatar a:hover{
+    color: var(--cyan);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.attribution { 
+    font-size: 0.688rem;
+    text-align: center; 
+    color: rgba(255, 255, 255, 0.76);
+}
+.attribution a { 
+    color: hsl(228, 56%, 56%);
+ }
