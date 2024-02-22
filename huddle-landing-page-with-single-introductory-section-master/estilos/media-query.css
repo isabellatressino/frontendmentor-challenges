@@ -1,0 +1,51 @@
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header{
+    margin-left: 1.875rem;
+    align-self: flex-start;
+}
+
+header img{
+    width: 15.625rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+section#texto{
+    text-align: left;
+    max-width: 31.25rem;
+}
+
+section#texto h1{
+    margin-top: 1.25rem;
+    font-size: 2rem;
+}
+
+section#texto p{
+    padding: 0px 10px;
+}
+
+div#botao{
+    text-align: left;
+}
+
+div#botao a{
+    padding: 0.625rem 3.125rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 2.5rem;
+    right: 3.125rem;
+}

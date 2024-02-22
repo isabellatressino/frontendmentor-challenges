@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --violet:hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --titulos: 'Poppins', sans-serif;
+    --body:  'Open Sans', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--body);
+    color: white;
+    font-size: 16px;
+    background-color: var(--violet);
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-attachment: fixed;
+}
+
+main{
+    overflow: hidden;
+    margin: 1.25rem;
+}
+
+header img{
+    padding: 1.25rem;
+    width: 12.5rem;
+}
+
+section#ilustracao img{
+    width: 100%;
+    padding: 1.25rem;
+}
+
+section#texto{
+    padding: 1.25rem;
+    text-align: center;
+}
+
+section#texto h1{
+    font-family: var(--titulos);
+    font-size: 1.7rem;
+    padding: 0.625rem 0.625rem;
+}
+
+section#texto p{
+    line-height: 1.7rem;
+}
+
+div#botao{
+    text-align: center;
+    margin-top: 1.5625rem;
+    margin-bottom: 3.125rem;
+}
+
+div#botao a{
+    text-decoration: none;
+    color: var(--violet);
+    background-color: white;
+    padding: 0.625rem 4.375rem;
+    border-radius: 3.125rem;
+    font-size: 14.4px;
+    box-shadow: 0.125rem 0.125rem 0.4375rem rgba(0, 0, 0, 0.527);
+}
+
+div#botao a:hover{
+    background-color: var(--soft-magenta);
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+footer span{
+    color: white;
+    padding: 0.625rem;
+    border: 0.0625rem solid white;
+    border-radius: 50%;
+    margin: 0.1875rem;
+}
+
+footer span.fa-facebook-f{
+    padding: 0.625rem 0.8125rem;
+}
+
+footer span.fa-instagram{
+    padding: 0.625rem 0.7188rem;
+}
+
+footer span:hover{
+    color: var(--soft-magenta);
+    border: 0.0625rem solid var(--soft-magenta);
+}
+
