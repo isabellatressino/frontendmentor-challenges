@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/interactive-card-details-form-main-html-css-js-3MGiYrsBlg)
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-card-details-form-main-html-css-js-ivl6rpWic-)
 - [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/interactive-card-details-form-main/)
 
 ## My process
