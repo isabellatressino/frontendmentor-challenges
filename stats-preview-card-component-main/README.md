@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://isabellatressino.github.io/stats-preview-card-component-main/)
+- [Solution URL](https://www.frontendmentor.io/solutions/stats-preview-card-component-using-flexbox-uh9eGEu_Sj)
 - [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/stats-preview-card-component-main/)
 
 ## My process
