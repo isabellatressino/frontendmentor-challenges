@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://isabellatressino.github.io/product-preview-card-component-main/](https://isabellatressino.github.io/product-preview-card-component-main/)
-- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-using-flexbox-r-OBJtCJHi](https://www.frontendmentor.io/solutions/product-preview-card-component-using-flexbox-r-OBJtCJHi)
+- [Live Site URL](https://isabellatressino.github.io/frontendmentor-challenges/product-preview-card-component-main/)
+- [Solution URL](https://www.frontendmentor.io/solutions/product-preview-card-component-using-flexbox-r-OBJtCJHi)
 
 ## My process
 
